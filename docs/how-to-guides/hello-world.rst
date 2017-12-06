@@ -23,7 +23,6 @@ Start by verifying your Bearer token is working by running the following from a 
 
   curl https://apis.voicebase.com/v3/media \
     --header "Authorization: Bearer ${TOKEN:?'(hint: insert your token after export TOKEN=)'}" \
-    | jq
 
 You should see a response like this (otherwise, see :ref:`explanation <understanding_step1>` and/or :ref:`troubleshooting <hello-world-troubleshooting>`):
 
